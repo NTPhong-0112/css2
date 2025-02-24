@@ -1,0 +1,110 @@
+/* Style for body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Skip to Main Content link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: #000;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+
+/* Style for header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for navigation */
+nav {
+    background-color: #555;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* nav ul li {
+    display: inline-block;
+    width: auto;
+    padding: 10px;
+} */ /* Commented out existing li styling */
+
+/* Style only images inside nav */
+nav img {
+    width: 10%;
+}
+
+/* Style for main content */
+main {
+    background-color: #f4f4f4;
+    font-size: 18px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Style for footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style for h1 */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #444;
+    margin-top: 0;
+}
+
+/* Style for paragraph */
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Style for grid class */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Style only images inside the grid class */
+.grid img {
+    width: 100%;
+}
+
+/* Style for flex class */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
